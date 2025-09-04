@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from 'next/link';
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -18,16 +18,17 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
           <Link href="/admin/users" className="block px-6 py-3 text-gray-700 hover:bg-gray-50">
             Users
           </Link>
-          <Link href="/admin/assessments" className="block px-6 py-3 text-gray-700 hover:bg-gray-50">
+          <Link
+            href="/admin/assessments"
+            className="block px-6 py-3 text-gray-700 hover:bg-gray-50"
+          >
             Assessments
           </Link>
         </nav>
       </div>
-      
+
       {/* Main Content */}
-      <div className="flex-1 p-8">
-        {children}
-      </div>
+      <div className="flex-1 p-8">{children}</div>
     </div>
-  )
+  );
 }

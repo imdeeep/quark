@@ -1,9 +1,9 @@
 import React from 'react';
-import { GoTrophy } from "react-icons/go";
-import { LuBrain } from "react-icons/lu";
-import { FiUsers, FiTrendingUp, FiClock, FiCalendar, FiZap, FiArrowRight } from "react-icons/fi";
-import { AiFillStar } from "react-icons/ai";
-import { BsCheckSquare } from "react-icons/bs";
+import { GoTrophy } from 'react-icons/go';
+import { LuBrain } from 'react-icons/lu';
+import { FiUsers, FiTrendingUp, FiClock, FiCalendar, FiZap, FiArrowRight } from 'react-icons/fi';
+import { AiFillStar } from 'react-icons/ai';
+import { BsCheckSquare } from 'react-icons/bs';
 
 export default function HomePage() {
   return (
@@ -21,11 +21,13 @@ export default function HomePage() {
               Coding Journey
             </span>
           </h1>
-          
+
           <p className="text-zinc-400 text-sm md:text-lg mx-auto mt-2 md:mt-0 text-center w-full md:w-3/4">
-            Join our contemporary coding platform to participate in engaging programming contests and comprehensive knowledge assessments designed to enhance your skills and boost your confidence.
+            Join our contemporary coding platform to participate in engaging programming contests
+            and comprehensive knowledge assessments designed to enhance your skills and boost your
+            confidence.
           </p>
-          
+
           <div className="flex justify-center gap-4 py-12">
             <button className="rounded-md border border-zinc-800 px-6 py-3 bg-gradient-to-r from-purple-400/70 to-purple-400/30 text-black font-medium cursor-pointer hover:opacity-90 transition-opacity flex items-center gap-2">
               <GoTrophy className="text-lg" />
@@ -231,14 +233,13 @@ export default function HomePage() {
         <section className="text-center py-16  mt-12 mb-14 transition-colors bor">
           <h2 className="text-3xl font-bold mb-4 text-white">Ready to advance your skills?</h2>
           <p className="text-zinc-400 mb-8 max-w-2xl mx-auto">
-            Join thousands of developers who are already elevating their coding abilities 
-            through our carefully crafted challenges and assessments.
+            Join thousands of developers who are already elevating their coding abilities through
+            our carefully crafted challenges and assessments.
           </p>
           <button className="flex items-center justify-center gap-2 mx-auto rounded-lg bg-gradient-to-r from-purple-400/70 to-purple-400/30 text-black px-6 py-3 text-sm font-medium hover:opacity-90 transition-opacity">
             <FiZap /> Get Started Today
           </button>
         </section>
-
       </div>
     </div>
   );
