@@ -18,7 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className={inter.className}>
         <div className="min-h-screen flex flex-col ">
-              <ThemeProvider>
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
 
           <Navbar />
           <main className="flex-1">{children}</main>

@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`sticky top-0 w-full py-4 border-b border-zinc-700/15 backdrop-blur-md flex items-center justify-between px-6 z-[98] transition-colors duration-300`}
+      className={`sticky top-0 w-full py-4 border-b border-zinc-700/15 flex items-center justify-between px-6 z-[98] ${theme==='dark'?'bg-black':'bg-white'}`}
     >
       {/* Logo */}
       <div className="flex items-center gap-2 select-none">
